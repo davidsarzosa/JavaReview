@@ -14,18 +14,20 @@ public class ContinueDemo {
 			System.out.println("Furkan's birhday +" + i);
 		}
 
-		// Same thing using while loop
+		System.out.println("Same thing using while loop");
 		System.out.println("===============================");
 
-		int p = 11;
-		int sum;
-		while (p <= 20) {
-			if (p == 13)
+		int p = 10;
+		while (p < 20) {
+			p++;
 
-				p++;
-
+			if (p == 13) {
+				continue;
+			}
+			System.out.println(" Furkan's Birthday is " + p); // has to be printed inside the loop
 		}
-		System.out.println(" Furkan's Birthday is " + p);
+
+		System.out.println(p); // this will just give you final result
 
 	}
 
