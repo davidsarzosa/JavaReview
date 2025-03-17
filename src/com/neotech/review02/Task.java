@@ -1,10 +1,5 @@
 package com.neotech.review02;
 
-<<<<<<<HEAD
-
-public class Task {
-=======
-
 import java.util.Scanner;
 
 public class Task {
@@ -90,6 +85,6 @@ public class Task {
 
 		}
 		System.out.println("Total = " + total);
-	}>>>>>>>8456 c969dadf7fe46730190c39f06173f53341cd
+	}
 
 }
