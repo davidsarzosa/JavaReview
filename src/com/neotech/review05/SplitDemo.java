@@ -22,7 +22,6 @@ public class SplitDemo {
 		}
 		System.out.println();
 		System.out.println("--------------------------------");
-
 		longStr = "I like number 5 and 6 because 7 ate 9.";
 		// String[] StringArray = longStr.split("[5-7]"); // looking for numbers 5
 		// trough 7
