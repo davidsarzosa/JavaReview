@@ -32,7 +32,7 @@ public class HospitalApplication {
 		Dermatologist d4 = new Dermatologist("Chapatin ", 325000, "UIO 0212", "UIO-DERM 0212");
 		d4.name = "Chapatin";
 		d4.checkUp("Consuelo");
-		d4.applySkinTreatment();
+		//d4.applySkinTreatment();
 
 		// The constructors are Not ingerited
 		// Dermatologist d5 = new Dermatologist("Roman", 15000, "ATX4488");
